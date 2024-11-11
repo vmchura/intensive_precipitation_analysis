@@ -10,7 +10,7 @@ will do my best to document every step of this project.
 ## Content
 
 * EDA
-    * 001.CompareDataSets.py
+    * S001_CompareDataSets.py
         * Script to compare complementary sources, one dataset spans from 1996 to 2015-12, and the other from 2015-01 to 2020-12.
         * The comparison focuses on overlapping days to adjust the datasets so they align on the same scale.
 
