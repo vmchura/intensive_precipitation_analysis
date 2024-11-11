@@ -38,7 +38,7 @@ class SenamhiPrecipitationParser:
     def parse(file_name: str) -> pd.DataFrame:
         load_dotenv()
         data_path = os.getenv("EL_NINO_DATA_PATH")
-        station_df = pd.read_csv(f'{data_path}/qc00000230.txt', header=None, delimiter=r"\s+")
+        station_df = pd.read_csv(f'{data_path}/{file_name}', header=None, delimiter=r"\s+")
         station_df.columns =['year', 'month', 'day', 'daily_precipitation', 'temp_min', 'temp_max']
         station_df = station_df.assign(date=lambda x: pd.to_datetime(x['year'].apply(str) +
                                                                      x['month'].apply(str).str.zfill(2) +
