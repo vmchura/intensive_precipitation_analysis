@@ -14,6 +14,12 @@ will do my best to document every step of this project.
         * Script to compare complementary sources, one dataset spans from 1996 to 2015-12, and the other from 2015-01 to 2020-12.
         * The comparison focuses on overlapping days to adjust the datasets so they align on the same scale.
 
+    * S002_LocalDataBasePrecipitation.md
+      * SQL Script to create the database and tables precipitation.
+    * S003_IngestRawPrecipitation.ipynb
+      * Python script to ingest raw precipitation datasets into SQL table.
+    * S004_ProcessPrecipitation.ipynb
+      * Python script to process raw SQL table into refined precipitation SQL table.
 ## Data Sets used
 
 * data (directory not shared in this repository)
