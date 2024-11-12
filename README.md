@@ -23,10 +23,11 @@ will do my best to document every step of this project.
     * PISCOp_h_non-DBC_2018.nc
     * PISCOp_h_non-DBC_2019.nc
     * PISCOp_h_non-DBC_2020.nc
+        * High-resolution (0.1°) gridded dataset of hourly precipitation across Peru for the period 2015–2020.
         * [Details on the article](https://www.sciencedirect.com/science/article/pii/S2352340922007776?via%3Dihub)
         * [URL where the dataset is hosted.](https://figshare.com/articles/dataset/SATc/17148416?backTo=/collections/Development_of_high-resolution_hourly_gridded_precipitation_dataset_over_Peru/5743166)
-    * qc00000230.txt
-        * Precipitation data for station "La Esperanza", Perú/Piura/Paita/Colan
-        * URL where the dataset can be downloaded previous
-          registration [Senhami](https://www.senamhi.gob.pe/site/descarga-datos/)
+    * qc00000230.txt; Station "La Esperanza", Perú/Piura/Paita/Colan
+    * qc00000208.txt; Station "Mallares", Perú/Piura/Sullana/Marcavelica
+    * qc00152101.txt; Station "Pananga", Perú/Piura/Sullana/Marcavelica
+        * URL where the dataset can be downloaded previous registration [Senhami](https://www.senamhi.gob.pe/site/descarga-datos/)
     
