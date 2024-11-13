@@ -15,7 +15,7 @@ will do my best to document every step of this project.
         * The comparison focuses on overlapping days to adjust the datasets so they align on the same scale.
 
     * S002_LocalDataBasePrecipitation.md
-      * SQL Script to create the database and tables precipitation.
+      * SQL Script to create the database and tables precipitation and data that supports the prediction.
     * S003_IngestRawPrecipitation.ipynb
       * Python script to ingest raw precipitation datasets into SQL table.
     * S004_ProcessPrecipitation.ipynb
