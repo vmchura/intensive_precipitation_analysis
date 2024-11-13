@@ -33,4 +33,14 @@ CREATE TABLE IF NOT EXISTS  equatorial_average_temperature_monthly (
     w180_w100 				float not null
 );
 
+CREATE TABLE IF NOT EXISTS  oni_monthly (
+    event_calendar_date     date primary KEY,
+    total_oni 				float not null,
+    anomaly_oni 			float not null
+);
+
+CREATE TABLE IF NOT EXISTS  target_precipitation (
+    calendar_date     date primary KEY,
+    target_high_precipitation 				float not null
+);
 ```

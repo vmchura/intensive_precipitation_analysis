@@ -20,6 +20,9 @@ will do my best to document every step of this project.
       * Python script to ingest raw precipitation datasets into SQL table.
     * S004_ProcessPrecipitation.ipynb
       * Python script to process raw SQL table into refined precipitation SQL table.
+      * Also determines the variable to predict as an accumulative precipitation.
+    * S005_AcquireData.ipynb
+      * Python script to acquire data form NOAA urls and save it to SQL tables.
 ## Data Sets used
 
 * PISCOp_h_non-DBC_2015.nc
