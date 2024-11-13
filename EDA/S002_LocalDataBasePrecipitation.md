@@ -13,4 +13,24 @@ CREATE TABLE IF NOT EXISTS  raw_precipitation (
 CREATE TABLE IF NOT EXISTS  master_precipitation (
     event_calendar_date     date primary KEY,
     precipitation_number    float NOT NULL);
+
+CREATE TABLE IF NOT EXISTS  sst_weekly (
+    event_calendar_date     date primary KEY,
+    nino12_sst 				float not null,
+    nino12_var 				float not null,
+    nino3_sst 				float not null,
+    nino3_var 				float not null,
+    nino34_sst 				float not null,
+    nino34_var 				float not null,
+    nino4_sst 				float not null,
+    nino4_var 				float not null
+);
+
+CREATE TABLE IF NOT EXISTS  equatorial_average_temperature_monthly (
+    event_calendar_date     date primary KEY,
+    e130_w80 				float not null,
+    e160_w80 				float not null,
+    w180_w100 				float not null
+);
+
 ```

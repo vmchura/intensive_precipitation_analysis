@@ -22,18 +22,24 @@ will do my best to document every step of this project.
       * Python script to process raw SQL table into refined precipitation SQL table.
 ## Data Sets used
 
-* data (directory not shared in this repository)
-    * PISCOp_h_non-DBC_2015.nc
-    * PISCOp_h_non-DBC_2016.nc
-    * PISCOp_h_non-DBC_2017.nc
-    * PISCOp_h_non-DBC_2018.nc
-    * PISCOp_h_non-DBC_2019.nc
-    * PISCOp_h_non-DBC_2020.nc
-        * High-resolution (0.1°) gridded dataset of hourly precipitation across Peru for the period 2015–2020.
-        * [Details on the article](https://www.sciencedirect.com/science/article/pii/S2352340922007776?via%3Dihub)
-        * [URL where the dataset is hosted.](https://figshare.com/articles/dataset/SATc/17148416?backTo=/collections/Development_of_high-resolution_hourly_gridded_precipitation_dataset_over_Peru/5743166)
-    * qc00000230.txt; Station "La Esperanza", Perú/Piura/Paita/Colan
-    * qc00000208.txt; Station "Mallares", Perú/Piura/Sullana/Marcavelica
-    * qc00152101.txt; Station "Pananga", Perú/Piura/Sullana/Marcavelica
-        * URL where the dataset can be downloaded previous registration [Senhami](https://www.senamhi.gob.pe/site/descarga-datos/)
-    
+* PISCOp_h_non-DBC_2015.nc
+* PISCOp_h_non-DBC_2016.nc
+* PISCOp_h_non-DBC_2017.nc
+* PISCOp_h_non-DBC_2018.nc
+* PISCOp_h_non-DBC_2019.nc
+* PISCOp_h_non-DBC_2020.nc
+    * High-resolution (0.1°) gridded dataset of hourly precipitation across Peru for the period 2015–2020.
+    * [Details on the article](https://www.sciencedirect.com/science/article/pii/S2352340922007776?via%3Dihub)
+    * [URL where the dataset is hosted.](https://figshare.com/articles/dataset/SATc/17148416?backTo=/collections/Development_of_high-resolution_hourly_gridded_precipitation_dataset_over_Peru/5743166)
+* qc00000230.txt; Station "La Esperanza", Perú/Piura/Paita/Colan
+* qc00000208.txt; Station "Mallares", Perú/Piura/Sullana/Marcavelica
+* qc00152101.txt; Station "Pananga", Perú/Piura/Sullana/Marcavelica
+    * URL where the dataset can be downloaded previous registration [Senhami](https://www.senamhi.gob.pe/site/descarga-datos/)
+* https://www.cpc.ncep.noaa.gov/data/indices/wksst9120.for
+  * Weekly SST data starts week centered on 2Sept1981
+    SST from the regions  Nino1+2, Nino3, Nino34 and Nino4
+* https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/ocean/index/heat_content_index.txt
+  * Equtorial Upper 300m temperature Average anomaly based on 1981-2010 Climatology (deg C)
+  * Monthly data for regions: 130E-80W   160E-80W   180W-100W
+* https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+  * ONI total values, monthly data.
