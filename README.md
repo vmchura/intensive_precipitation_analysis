@@ -23,6 +23,10 @@ will do my best to document every step of this project.
       * Also determines the variable to predict as an accumulative precipitation.
     * S005_AcquireData.ipynb
       * Python script to acquire data form NOAA urls and save it to SQL tables.
+    * S006_FirstRunModel.ipynb
+      * Python script that runs first time the model with no analysis of the data.
+    * S007_SecondRunModel.ipynb
+      * Python script that just consider the month of the year as extra field.
 ## Data Sets used
 
 * PISCOp_h_non-DBC_2015.nc
