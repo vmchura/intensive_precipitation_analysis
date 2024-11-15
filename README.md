@@ -50,3 +50,5 @@ will do my best to document every step of this project.
   * Monthly data for regions: 130E-80W   160E-80W   180W-100W
 * https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
   * ONI total values, monthly data.
+* https://psl.noaa.gov/enso/past_events.html
+  * List with years of ENSO past events
